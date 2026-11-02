@@ -111,7 +111,7 @@ header {
 }
 
 .course__selection {
-font-family: "SpaceMono", monospace;
+font-family: "Space Mono", monospace;
 font-weight: bold;
 color: #727892;
 letter-spacing: 0.1px;
@@ -200,7 +200,7 @@ footer {
 .section__card--about {
   background-color: #ffeaaf;
   border-right: #badcee;
-
+  border-right: 20px solid #badcee;
 }
 
 .section__card--social {
@@ -227,7 +227,7 @@ footer {
 
 .section__title {
   margin-bottom: 16px;
-  font-family: "SpaceMono", monospace;
+  font-family: "Space Mono", monospace;
   letter-spacing: 8px;
 
 }
