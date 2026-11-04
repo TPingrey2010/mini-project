@@ -353,10 +353,17 @@ SMALLER SCREEN
       width: 100%;
 
     }
-
     input, textarea {
        width: 400px; 
     }
+
+  .footer__links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+ }
+
 }
 
 
