@@ -238,7 +238,7 @@ footer {
 }
 
 .section__description--para {
-  font-size: 24px;
+  font-size: 20px;
   line-height: 1.5;
   margin-bottom: 24px;
 }
@@ -298,3 +298,27 @@ footer {
   padding: 0 16px;
  }
 
+
+/*  
+
+RESPONSIVENESS  
+
+*/
+
+/* 
+
+SMALLER SCREEN
+
+*/
+
+@media (max-width: 1024px)  {
+  .section__description--para {
+    font-size: 20px;
+    }
+}
+
+@media (max-width: 768px)  {
+   a {
+       font-size: 16px;
+   } 
+}
